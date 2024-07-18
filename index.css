@@ -1,0 +1,30 @@
+li {
+  margin-bottom: 10px;
+}
+
+.main-list ul > li {
+  border: 3px dotted;
+}
+
+.small-only {
+  background-color: blue; /* Add this rule for testing */
+}
+
+@media (max-width: 500px) {
+  .small-only {
+    background-color: red;
+  }
+}
+
+@media (min-width: 300px) {
+  .large-screen {
+    display: none;
+    background-color: green;
+  }
+}
+@media (max-width: 500px) {
+  .small-screen {
+    display: block;
+    background-color: orange;
+  }
+}
