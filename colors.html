@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colors</title>
+    <style>
+      p {
+        font-size: 30px;
+      }
+      em {
+        background-color: hsl(110, 81%, 62%);
+      }
+      i {
+        background-color: #aa0044;
+      }
+      .third3 {
+        background-color: rgb(59, 206, 59);
+      }
+      .box {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+      }
+      .first.box {
+        background-color: hsl(340deg 100% 50%/1);
+      }
+      .second.box {
+        background-color: hsl(340deg 100% 50%/0.75);
+      }
+      .third.box {
+        background-color: hsl(340deg 100% 50%/0.5);
+      }
+      .fourth.box {
+        background-color: hsl(340deg 100% 50%/0.25);
+      }
+    </style>
+  </head>
+  <body>
+    <p>This is <em>first</em> Text</p>
+    <p>This is <i>second</i> Text</p>
+    <p>This is <span class="third3">third</span> Text</p>
+    <p>This is fourth Text</p>
+    <!-- Transperency -->
+    <div class="first box">A</div>
+    <div class="second box">B</div>
+    <div class="third box">C</div>
+    <div class="fourth box">D</div>
+  </body>
+</html>
