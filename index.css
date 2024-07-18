@@ -34,7 +34,9 @@ li {
 button:hover {
   color: blue;
 }
-
+div {
+  margin: 5px;
+}
 button:focus {
   border: 2px solid royalblue;
   background: royalblue;
@@ -43,4 +45,22 @@ button:focus {
 input:checked {
   width: 24px;
   height: 24px;
+}
+
+input {
+  font-size: 1rem;
+}
+input::placeholder {
+  color: goldenrod;
+}
+
+h3::before {
+  content: "BEFORE";
+  color: brown;
+  padding-right: 5px;
+}
+h3::after {
+  content: "AFTER";
+  color: brown;
+  padding-left: 5px;
 }
