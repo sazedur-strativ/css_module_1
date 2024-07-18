@@ -30,9 +30,17 @@ li {
     display: none;
   }
 }
-/* @media (max-width: 500px) {
-  .small-screen {
-    display: block;
-    background-color: orange;
-  }
-} */
+
+button:hover {
+  color: blue;
+}
+
+button:focus {
+  border: 2px solid royalblue;
+  background: royalblue;
+  color: white;
+}
+input:checked {
+  width: 24px;
+  height: 24px;
+}
