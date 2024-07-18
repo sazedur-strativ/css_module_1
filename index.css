@@ -7,7 +7,7 @@ li {
 }
 
 .small-only {
-  background-color: blue; /* Add this rule for testing */
+  background-color: blue;
 }
 
 @media (max-width: 500px) {
@@ -15,16 +15,24 @@ li {
     background-color: red;
   }
 }
-
-@media (min-width: 300px) {
+.large-screen {
+  display: none;
+}
+.small-screen {
+  background-color: orange;
+}
+@media (min-width: 600px) {
   .large-screen {
-    display: none;
+    display: block;
     background-color: green;
   }
+  .small-screen {
+    display: none;
+  }
 }
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .small-screen {
     display: block;
     background-color: orange;
   }
-}
+} */
